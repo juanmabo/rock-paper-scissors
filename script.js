@@ -17,15 +17,12 @@ function convertirSeleccion(selection) {
     }
 }
 
-let computerSelection = getComputerChoice();
-
-let input = prompt("Put your choice (Rock, Paper or Scissors):");
-
-let playerSelection = convertirSeleccion(input);
 
 
 
-function playRound(playerSelection, computerSelection) {
+function playRound() {
+    let playerSelection = convertirSeleccion(prompt("Put your choice (Rock, Paper or Scissors):"));
+    let computerSelection = getComputerChoice();
     if (playerSelection == computerSelection) {
         return "It's tie. The computer choose the same.";
     } else if (playerSelection === 1 && computerSelection === 2) {
@@ -45,5 +42,9 @@ function playRound(playerSelection, computerSelection) {
     }
 }
 
+function game(){
+    let input = prompt("Put your choice (Rock, Paper or Scissors):");
+
+}
 
 console.log(playRound());
