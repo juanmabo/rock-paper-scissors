@@ -1,0 +1,60 @@
+body {
+    background-color: #252A34;
+    color: white;
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  h1 {
+      font-size: 54px;
+      margin-bottom: 20px;
+  }
+  
+  .score {
+      display: flex;
+      gap: 100px;
+  }
+  
+  h2 {
+      font-size: 28px;
+  }
+  
+  button {
+      width: 200px;
+      height: 200px;
+      margin: 20px 50px;
+      font-size: 80px;
+      border-radius: 50%;
+      border-style: none;
+  }
+  
+  .gameButtons {
+      margin-bottom: 20px;
+  }
+  
+  .roundResultText{
+      font-size: 18px;
+      text-align: center;
+  }
+  
+  .gameWinner {
+      font-size: 34px;
+      text-align: center;
+      margin: 20px;
+  }
+  
+  .playAgain{
+      display: block;
+      margin: 0px auto; 
+      border-radius: 10px;
+      width: auto;
+      height: auto;
+      font-size: 28px;
+      font-family: 'Courier New', Courier, monospace;
+      font-weight: 900;
+      padding: 20px;
+      color: #D24545;
+  }
